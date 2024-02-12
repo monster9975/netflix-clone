@@ -1,0 +1,227 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Segoe UI
+   Segoe UI Bold,
+   Segoe UI Light,
+   Segoe UI Symbol,
+   Segoe UI Italic ;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav img{   
+    margin-right: 110px;
+    height: 40px;
+    display: flex;
+
+}
+.container{
+    margin: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.lang{
+    height: 32px;
+    width: 122px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+}
+.sign{
+    height: 32px;
+    width: 74px;
+    border-radius: 6px;
+    border: none;
+    background-color: RGB(170, 20, 27);
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+    
+
+}
+.container h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+.container h3{
+    font-size: 32px;
+    color: white;
+}
+.container p{
+    font-size: 30px;
+    color: white;
+    
+}
+.container form input{
+    width: 374px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: grey;
+    cursor: pointer;
+    background: transparent;
+
+    border: 1px solid grey ;
+    
+}
+.container form button {
+    width: 202px;
+    height: 56px;
+    background-color: RGB(170, 20, 27);
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.all
+{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(images/backgroung\ image\ .jpg);
+    border-bottom: 8px solid grey ;
+
+}
+.wrapper{
+    flex-wrap: wrap;
+}
+/* section part1 */
+.section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 8px solid grey;
+}
+.section sec{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.section mec{
+    width: 50%;
+    height: 80px;
+    
+}
+.section h1{
+    color: white;
+    margin-left: 150px;
+    gap: 100px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 1500px;
+}
+.section h3{
+    color: white;
+    margin-left: 150px;
+    font-size: 30px;
+}
+.mec img{
+margin-right: 60px;
+}
+.faq{
+    height: 127vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+   align-items: center ;
+    flex-direction: column;
+    border-bottom: 8px solid grey;
+    
+}
+.faq li{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-inline: 17px;
+    border: 1px solid grey ;
+    height: 84px;
+    width: 1175px;
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    
+}
+.faq h1{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.faq p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.faq form{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq form input{
+    width: 374px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: grey;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid grey ;
+}
+.faq form button {
+    width: 202px;
+    height: 56px;
+    background-color: RGB(170, 20, 27);
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    border-radius: 6px;
+    font-size: 25px;
+}
+.table1{
+    height: 55vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* padding-inline: 30px; */
+}
+table{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 80%;
+    line-height: 40px;
+    margin-left: 150px;
+    text-decoration: underline  ;
+}
+@media (max width : 768px) {
+    .nav{
+        width: 100vw;
+        height: 50px;
+    }
+    .nav img{
+        margin-left: 30px;
+        h
+    }
+    
+}
+
